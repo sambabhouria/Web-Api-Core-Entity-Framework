@@ -19,7 +19,7 @@ Here will consider a simple and basic model as ‘Employee’ and will use an En
 
     1.Step 1 - Open the IDE
     Here will use the IDE - Visual Studio and select the project type as “ASP.NET Core Web App”.
-    <img src="img-1.png">
+    <img src="img-1.PNG">
     
     2.Step 2
     Give the project name and click on Create, proceed with the type of Web Application.
