@@ -19,20 +19,26 @@ Here will consider a simple and basic model as ‘Employee’ and will use an En
 
    1.Step 1 - Open the IDE
    Here will use the IDE - Visual Studio and select the project type as “ASP.NET Core Web App”.
+   
     <img src="img-1.PNG">
     
    2.Step 2
    Give the project name and click on Create, proceed with the type of Web Application.
+   
     <img src="img-2.PNG">
     
    3.Step 2
-   Choose the API option to create a default project with ASP.NET core RESTful HTTP services.  
+   Choose the API option to create a default project with ASP.NET core RESTful HTTP services.
+   
+
     <img src="img-3.PNG">
     
    4.Step 4
    Now, you should able to see the project as below. Will delete the default files highlighted in Red
+   
     <img src="img-4.PNG">
     
     5.Step 5
    Install following Nuget packages with NuGet package Manager and installed packages as below
+   
     <img src="img-5.PNG">
