@@ -35,4 +35,4 @@ Here will consider a simple and basic model as ‘Employee’ and will use an En
     
     5.Step 5
    Install following Nuget packages with NuGet package Manager and installed packages as below,
-    <img src="img-5.png">
+    <img src="img-1.PNG">
