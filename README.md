@@ -9,6 +9,13 @@ In this App , we we will build a simple Web API with Read, Create, Update and De
 of GET, POST, PUT and DELETE respectively and will test the Web APIs with the Postman tool.
 Here will consider a simple and basic model as ‘Employee’ and will use an Entity Framework with SQL Server database.
 
+
+## Package
+[SqlSever](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer)
+PM> NuGet\Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 7.0.2
+[EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer)
+PM> NuGet\Install-Package MySql.Data.EntityFrameworkCore -Version 8.0.22
+
 # `Prerequisites`
     1.Visual studio 2019 or Visual Studio Code or Rider IDE or Visual Studio Code
     2.Postman Tool
@@ -36,3 +43,11 @@ Here will consider a simple and basic model as ‘Employee’ and will use an En
     5.Step 5
    Install following Nuget packages with NuGet package Manager and installed packages as below
     <img src="img-5.PNG">
+	
+   6.Step 6
+   Create a Folder ‘Models’ in solution and Add a new class ‘Employee.cs’,
+    <img src="img-6.PNG">
+   
+   7.Step 7
+   Define the DB Context, create a Folder ‘Context’ in solution and Add a new class ‘CompanyContext.cs’.
+    <img src="img-7.PNG">
