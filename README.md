@@ -1,6 +1,7 @@
-# Building ASP.NET Web API In .NET Core With Entity Framework
+#Building ASP.NET Web API In .NET Core With Entity Framework
 
-## Background
+##Background
+
 ASP.NET Web API is a framework that helps to build HTTP(s) services that connect to a wider range of clients, 
 including browsers and mobile devices.
 ASP.NET Web API is an ideal platform for building RESTful applications.
@@ -8,7 +9,7 @@ In this App , we we will build a simple Web API with Read, Create, Update and De
 of GET, POST, PUT and DELETE respectively and will test the Web APIs with the Postman tool.
 Here will consider a simple and basic model as ‘Employee’ and will use an Entity Framework with SQL Server database.
 
-# `Prerequisites`
+#`Prerequisites`
     1.Visual studio 2019 or Visual Studio Code or Rider IDE or Visual Studio Code
     2.Postman Tool
     3.SQL Server Management Studio 18
