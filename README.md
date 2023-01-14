@@ -72,7 +72,11 @@ PM> NuGet\Install-Package MySql.Data.EntityFrameworkCore -Version 8.0.22
     <img src="img-12.PNG">
   Let new implment the read write update delete operation to the database.
   
-# Part c - Postman>
+# Part c - Postman
+
+  1.Step 1
+  Add Postman Screen shot.
+    <img src="img-13.PNG">
 	<img src="img-13.PNG">
 	<img src="img-14.PNG">
 	<img src="img-15.PNG">
