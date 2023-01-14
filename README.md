@@ -64,3 +64,17 @@ PM> NuGet\Install-Package MySql.Data.EntityFrameworkCore -Version 8.0.22
     <img src="img-10.PNG">
   Affter adding the conguration in Starttup file run the appplication and data will seed in the db.
     <img src="img-11.PNG">
+	
+# Part B - Implementation of Web API
+
+  1.Step 1
+  Add an API Controller. Choose the Read/Write option, this will ease the development task with a default template.
+    <img src="img-12.PNG">
+  Let new implment the read write update delete operation to the database.
+  
+# Part c - Postman>
+	<img src="img-13.PNG">
+	<img src="img-14.PNG">
+	<img src="img-15.PNG">
+	<img src="img-16.PNG">
+ 
