@@ -51,3 +51,16 @@ PM> NuGet\Install-Package MySql.Data.EntityFrameworkCore -Version 8.0.22
    7.Step 7
    Define the DB Context, create a Folder ‘Context’ in solution and Add a new class ‘CompanyContext.cs’.
     <img src="img-7.PNG">
+	
+   8.Step 8
+   Define the connection string in ‘appsettings.json’, the easy way to find the connection string. Go to ‘Server Explore’ -> ‘Connect to DB’.
+    <img src="img-8.PNG">
+	
+  9.Step 9
+  Let’s create a Seed DB with few employee records. This is optional if you can create seed data via SSMS(SQL Server Management Studio).
+    <img src="img-9.PNG">
+ 10.Step 10
+  Define the parameter at the ‘Configure()’ function call in Startup.cs.This step is optional if you skip step #9
+    <img src="img-10.PNG">
+  Affter adding the conguration in Starttup file run the appplication and data will seed in the db.
+    <img src="img-11.PNG">

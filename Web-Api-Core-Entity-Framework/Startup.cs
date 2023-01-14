@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Web_Api_Core_Entity_Framework.Context;
 
 namespace Web_Api_Core_Entity_Framework
 {
@@ -36,7 +37,7 @@ namespace Web_Api_Core_Entity_Framework
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, CompanyContext  dbContext)
         {
             if (env.IsDevelopment())
             {
@@ -44,6 +45,9 @@ namespace Web_Api_Core_Entity_Framework
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web_Api_Core_Entity_Framework v1"));
             }
+
+            // Load default employer records in data-bases
+            dbContext.Seed();
 
             app.UseRouting();
 
