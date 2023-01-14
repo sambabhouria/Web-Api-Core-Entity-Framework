@@ -1,0 +1,27 @@
+
+PM> add-migration MigrationV1
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+
+
+PM> add-migration MigrationV1
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+PM> update-database
+Build started...
+Build succeeded.
+Done.
+PM> 
+
+ USE master ;
+
+ IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'CompanyDB')
+  BEGIN
+    CREATE DATABASE [CompanyDB]
+  END
+
+
+
+Data Source=DESKTOP-H9SL8KQ;Initial Catalog=CompanyDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
